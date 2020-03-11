@@ -1,0 +1,180 @@
+val l = List(2,3,5,7,9)
+
+In Scala tutte le collections sono classi (-> lettera maiuscola iniziale)
+
+Primo elemento della lista:
+l.head
+
+Lista senza primo elemento:
+l.tail
+
+Somma degli elementi in lista:
+def sum (l:List[Int]):Int = 
+    if (l==Nil) 0 else l.head + sum(l.tail)
+
+Lista vuota:
+val l = Nil
+val l = List()
+
+== uguaglianza profonda
+
+eq uguaglianza dei puntatori
+    x eq l
+
+ultimo elemento:
+l.last
+
+aggiunta in testa:
+l :: 1 (restituisce una nuova lista)
+
+metodo che data una lista di interi, restituisce gli interi moltiplicati per 2:
+def raddoppia(l:List[Int]):List[Int] = if ( l== Nil ) Nil else 2*l.head :: raddoppia(l.tail) (versione professore)
+def raddoppia(l:List[Int]):List[Int] = if ( l== Nil ) Nil else l.map(_*2) (versione mia)
+
+def mappa(f:Int=>Int, l:List[Int]): List[Int] = if ( l== Nil ) Nil else f(l.head) :: mappa(f, l.tail)
+
+val t = ("uno", "due", "tre")
+prendere elementi da una tupla:
+t._1, t._2, ecc.
+
+l.splitAt(3)
+tupla di liste con numero di elementi detto nel metodo e i restanti nella seconda
+
+l.take(3)
+prende i primi 3 elemeni
+
+l.drop(3)
+toglie i primi tre elementi
+
+List.range(1, 10)
+costruisce una lista con tutti i numeri da 1 all'ultimo escluso (10-1=9)
+
+somma di elementi in una lista: l.sum
+
+l.zipWithIndex 
+restituisce elemento con il proprio indice
+
+mergesort:
+def merge(a:List[Int], b:List[Int]):List[Int] = {
+    if (a==Nil) b 
+    else if (b==Nil) a
+        else if (a.head < b.head) a.head :: merge(a.tail, b)
+            else b.head :: merge(a, b.tail)
+}
+
+def mergeSort(l: List[Int]):List[Int] = {
+    if (l.length < 2) l 
+    else {
+        val (a,b) = l.splitAt(l.length/2)
+        val sx = mergeSort(a)
+        val dx = mergeSort(b)
+        merge(sx, dx)
+    } 
+}
+
+per ordinare una lista creandone una nuova: 
+l.sorted
+
+per concatenare due liste:
+ a:::b (dove a e b sono liste)
+
+flatten server per creare una lista da una lista di liste
+val k= List(List(1), List(2,3), List(4,5))
+k.flatten
+
+isSorted:
+def isSorted(l:List[Int]):Boolean = {
+    if (l.length < 2) true
+    else if (l.head > l.tail.head) false
+    else isSorted(l.tail)
+}
+
+(Stefano version)
+def isSorted(l:List[Int]):Boolean = {
+    l.length < 2 || (l.head<l.tail.head && isSorted(l.tail)) }
+
+
+quanti sono i numeri maggiori di 3 (funzione di ordine superiore perchè prende in input una funzione)
+l.count(_>3)
+
+esiste un elemento x nella lista che soddisfa la condizione data:
+l.exist(_%2==0)
+
+voglio filtrare in base ad una certa condizione:
+l.filter(_%2==1) restituisce solo i dispari nella lista
+
+tutti gli elementi soddisfano una certa condizione:
+l.forall(_>0) tutti gli elementi sono positivi?
+
+mappa qualsiasi elemento in un nuovo elemento a cui è stata applicata una certa funzione
+l.map(x=>2*x)
+
+operazione reduce scorre elementi di una lista e accumula un valore che dipende da tutti 
+gli elementi incontrati in base ad una funzione fornita dall'utente
+es.:
+    funzione (a,b) = a+b oppure _+_   (somma)
+    in caso di somma mantiene un accumulatore e somma sempre un nuovo valore nella lista 
+
+l.sliding(a,b)
+metodo sliding su liste costruisce sottsequenza di lunghezza a distanziate di b
+
+isSorted2:
+def isSorted2(l:List[Int]):Boolean = {
+    val s = l.sliding(2,1)
+    s.forall(x => x(0) <= x(1))
+}
+
+isSorted2 versione ridotta:
+def isSorted2(l:List[Int]):Boolean = {
+    l.sliding(2,1).forall(x => x(0) <= x(1))
+}
+
+l.groupBy(x=>x%2==0).toList
+lista di coppie di cui il primo elemento è la proprietà soddisfatta o no e quali elementi soddisfa o meno la proprietà
+l.groupBy(x=>x%2).toList
+
+quickSort:
+def qsort(l:List[Int]):List[Int] = {
+    if (l.length < 2) l 
+    else {
+        val pivot = l.head
+        val minp = l.filter(_ < pivot)
+        val magp = l.tail.filter(_ >= pivot)
+        val sx = qsort(minp)
+        val dx = qsort(magp)
+        sx ::: (pivot :: dx)
+    }   
+}
+
+quickSort2:
+def qsort2(l:List[Int]):List[Int] = {
+    if (l.length < 2) l 
+    else qsort2(l.filter(_ < l.head)) ::: (l.head :: qsort(l.tail.filter(_ >= l.head)))
+}
+
+avere solo elementi distinti
+l.distinct
+
+sequenza al contrario
+l.reverse
+
+tutto ciò che viene fatto sulle liste può essere applicato sulle stringhe:
+
+"qualcosa".filter(x=>x=='a'||x=='e'||x=='i'||x=='o'||x=='u')
+
+intersezione di due liste:
+def inters(a:List[Int], b:List[Int]):List[Int] = {
+    if (a == Nil || b == Nil) Nil
+    else if (b.contains(a.head)) a.head :: inters(a.tail,b)
+    else inters(a.tail, b)
+}
+
+estrarre elementi con indici pari:
+def pospar(l: List[Int]): List[Int] = l.zipWithIndex.filter(x=>x._2 % 2 == 0).map(x=>x._1)
+
+
+
+
+
+
+

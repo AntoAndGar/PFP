@@ -1,0 +1,6 @@
+sealed abstract class Expr()
+case class X() extends Expr()
+case class Y() extends Expr()
+case class And(e1:Expr, e2:Expr) extends Expr()
+case class Or(e1:Expr, e2:Expr) extends Expr()
+case class Not(e:Expr) extends Expr()

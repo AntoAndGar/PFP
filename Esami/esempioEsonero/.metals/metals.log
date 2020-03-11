@@ -1,0 +1,179 @@
+INFO  started: Metals version 0.8.1 in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'
+INFO  time: initialize in 2.49s
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+Mar 07, 2020 10:54:30 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 07, 2020 10:54:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Mar 07, 2020 10:54:30 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 07, 2020 10:54:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Mar 07, 2020 10:57:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:48)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:42)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:74)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:37)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionMetaPosition.toLSP(MtagsEnrichments.scala:404)
+	at scala.meta.internal.metals.TokenEditDistance.toRevised(TokenEditDistance.scala:126)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:33)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:52)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:47)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:47)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:52)
+	at scala.meta.internal.metals.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:47)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:47)
+	at scala.meta.internal.metals.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:25)
+	at scala.meta.internal.metals.FoldingRangeProvider.$anonfun$getRangedFor$1(FoldingRangeProvider.scala:24)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.FoldingRangeProvider.getRangedFor(FoldingRangeProvider.scala:20)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$1(MetalsLanguageServer.scala:1165)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:24)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'
+INFO  time: initialize in 2.27s
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'
+INFO  time: initialize in 2.7s
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 07, 2020 7:01:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 712
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+Mar 07, 2020 7:08:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 07, 2020 7:08:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+Mar 07, 2020 7:08:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1231
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+Mar 07, 2020 7:13:16 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 176, count -1, length 240
+Mar 07, 2020 7:13:18 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 222, count -1, length 241
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+WARN  no build target for: /media/ant/Elementary/Sapienza/Programmazione Funzionale e Parallela/Esami/esempioEsonero/kitEsame/X1.scala
+INFO  shutting down Metals
