@@ -93,6 +93,7 @@ def isSorted(l:List[Int]):Boolean = {
 def isSorted(l:List[Int]):Boolean = {
     l.length < 2 || (l.head<l.tail.head && isSorted(l.tail)) }
 
+Metodi di ordine superiore:
 
 quanti sono i numeri maggiori di 3 (funzione di ordine superiore perchè prende in input una funzione)
 l.count(_>3)
@@ -112,8 +113,19 @@ l.map(x=>2*x)
 operazione reduce scorre elementi di una lista e accumula un valore che dipende da tutti 
 gli elementi incontrati in base ad una funzione fornita dall'utente
 es.:
-    funzione (a,b) = a+b oppure _+_   (somma)
+    funzione (a,b) => a+b oppure _+_   (somma)
     in caso di somma mantiene un accumulatore e somma sempre un nuovo valore nella lista 
+somma:
+l.reduce(_+_)
+
+massimo:
+l.reduce((a,b)=> if (a>b) a else b)
+l.reduce((a,b)=> a max b)
+
+minimo:
+l.reduce((a,b)=> if (a<b) a else b)
+l.reduce((a,b)=> a min b)
+
 
 l.sliding(a,b)
 metodo sliding su liste costruisce sottsequenza di lunghezza a distanziate di b
@@ -130,7 +142,8 @@ def isSorted2(l:List[Int]):Boolean = {
 }
 
 l.groupBy(x=>x%2==0).toList
-lista di coppie di cui il primo elemento è la proprietà soddisfatta o no e quali elementi soddisfa o meno la proprietà
+lista di coppie di cui il primo elemento è la proprietà soddisfatta o no e quali elementi soddisfa 
+o meno la proprietà
 l.groupBy(x=>x%2).toList
 
 quickSort:
@@ -149,7 +162,7 @@ def qsort(l:List[Int]):List[Int] = {
 quickSort2:
 def qsort2(l:List[Int]):List[Int] = {
     if (l.length < 2) l 
-    else qsort2(l.filter(_ < l.head)) ::: (l.head :: qsort(l.tail.filter(_ >= l.head)))
+    else qsort2(l.filter(_ < l.head)) ::: (l.head :: qsort2(l.tail.filter(_ >= l.head)))
 }
 
 avere solo elementi distinti
@@ -160,6 +173,7 @@ l.reverse
 
 tutto ciò che viene fatto sulle liste può essere applicato sulle stringhe:
 
+"qualcosa".reverse
 "qualcosa".filter(x=>x=='a'||x=='e'||x=='i'||x=='o'||x=='u')
 
 intersezione di due liste:

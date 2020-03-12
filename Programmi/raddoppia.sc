@@ -1,0 +1,1 @@
+def raddoppia(l:List[Int]):List[Int] = if ( l== Nil ) Nil else 2*l.head :: raddoppia(l.tail)

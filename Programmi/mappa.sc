@@ -1,0 +1,1 @@
+def mappa(f:Int=>Int, l:List[Int]): List[Int] = if ( l== Nil ) Nil else f(l.head) :: mappa(f, l.tail)
