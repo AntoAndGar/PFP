@@ -430,3 +430,384 @@ WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f
 WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'
+INFO  time: initialize in 0.36s
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'
+INFO  time: initialize in 0.5s
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  no build target: using presentation compiler with only scala-library
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 20)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 27)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 20)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 21)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 22)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 22)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 13, 13, 22)
+Mar 13, 2020 5:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Mar 13, 2020 6:08:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 96, 96, 103)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 96, 96, 110)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 96, 96, 103)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 96, 96, 103)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/mySize.sc, 96, 96, 103)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 12, 12, 19)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 12, 12, 26)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 12, 12, 19)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 12, 12, 21)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 12, 12, 21)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 12, 12, 21)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 32)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 39)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 32)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 33)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 34)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 34)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myZip.sc, 25, 25, 34)
+Mar 13, 2020 6:13:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 13, 2020 6:21:54 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc, 26, 26, 40)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc, 26, 26, 33)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc, 26, 26, 33)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/findIndices.sc, 26, 26, 33)
+Mar 13, 2020 6:25:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc, 37, 37, 44)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc, 37, 37, 51)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc, 37, 37, 44)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc, 37, 37, 44)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestPrefix.sc, 37, 37, 44)
+Mar 13, 2020 6:31:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela/Programmi/longestPrefix.scala
+Mar 13, 2020 6:38:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+WARN  no build target for: /media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela/Programmi/longestPrefix.scala
+WARN  no build target for: /media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela/Programmi/longestPrefix.scala
+WARN  no build target for: /media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione Funzionale e Parallela/Programmi/longestPrefix.scala
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 34)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 27)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 29)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 30)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[String]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 32)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[String]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 32)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc in List[String]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/longestString.sc, 20, 20, 32)
+Mar 13, 2020 6:44:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 20)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 27)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 20)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 21)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 22)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 22)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc in List[Int]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/minMax.sc, 13, 13, 22)
+Mar 13, 2020 6:47:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Mar 13, 2020 6:53:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myFlatten.sc in List[List[T]]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myFlatten.sc, 19, 19, 31)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myFlatten.sc in List[List[T]]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myFlatten.sc, 19, 19, 31)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myFlatten.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/myFlatten.sc, 24, 24, 31)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc, 20, 20, 27)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc in List[<error>]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc, 20, 20, 34)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc, 20, 20, 27)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc, 20, 20, 27)
+something's wrong: no file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc in List[T]RangePosition(file:///media/ant/39fd27ec-9fa5-40a8-9f8f-3f50bdf760d01/SapienzaInformatica/Sapienza/Programmazione%20Funzionale%20e%20Parallela/Programmi/removeDup.sc, 20, 20, 27)
+Mar 13, 2020 6:58:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:38)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:36)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.charAt(String.java:658)
+	at scala.collection.immutable.StringOps$.apply$extension(StringOps.scala:41)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.lastIndexBetween(MetalsEnrichments.scala:411)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.pipeInScope(MultilineStringFormattingProvider.scala:86)
+	at scala.meta.internal.metals.MultilineStringFormattingProvider.$anonfun$withToken$1(MultilineStringFormattingProvider.scala:131)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
