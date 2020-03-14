@@ -16,3 +16,15 @@ def qsort2(l:List[Int]):List[Int] = {
         (l.head :: 
         qsort2(l.tail.filter(_ >= l.head)))
 }
+
+def qsortGen[T](cmp:(T,T)=>Boolean, l:List[T]):List[T] = {
+    if (l.length < 2) l 
+    else qsortGen(cmp, l.filter(cmp(_, l.head))) ::: l.head :: 
+        qsortGen(cmp, l.tail.filter(!cmp(_, l.head)))
+}
+
+def qsortGen[T](cmp:(T,T)=>Boolean)(l:List[T]):List[T] = {
+    if (l.length < 2) l 
+    else qsortGen(cmp)(l.filter(cmp(_, l.head))) ::: l.head :: 
+        qsortGen(cmp)(l.tail.filter(!cmp(_, l.head)))
+}
