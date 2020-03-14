@@ -1,2 +1,5 @@
 Video/*
 *.mov
+.metals/
+.bloop/
+project/metals.sbt
