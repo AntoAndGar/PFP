@@ -1,0 +1,21 @@
+/*  disegno di un Mandala toroidale - grafica 2D
+    Completare il metodo getToroidalMandala dell’object ToroidalMandala seguente in modo 
+    che costruisca un modello 2D del Mandala toroidale a 24 “petali” mostrato in figura.
+
+    https://season-lab.github.io/PFP/training/gym/img/toroidal-mandala.gif
+
+    La figura è creata utilizzando esclusivamente cerchi. La figura deve essere confinata 
+    nello spazio quadrato bidimensionale di lato unitario delimitato dall’origine degli assi 
+    fino al punto di coordinate (1,1). La figura viene poi scalata automaticamente dal modulo 
+    di visualizzazione per occupare la dimensione della finestra. Si ricordi che da Scala è 
+    possibile accedere a tutte le funzioni delle librerie Java (es. Math.sin).
+
+    Approfondimento. I Mandala sono dei disegni di grande suggestione che rivestono un 
+    significato spirituale e rituale sia nel Buddhismo che nell’Hinduismo. 
+    Il Mandala (dal sanscrito maṇḍala (मण्डल), tradotto come “cerchio”) rappresenta, secondo 
+    i buddhisti, il processo mediante il quale il cosmo si è formato dal suo centro. 
+    Attraverso un articolato simbolismo, il Mandala consente una sorta di viaggio iniziatico 
+    che permette di crescere interiormente.
+
+    Usare il seguente programma di prova e le classi Shape e Frame2D dell’esercizio 26.
+*/

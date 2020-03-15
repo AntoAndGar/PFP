@@ -1,0 +1,11 @@
+/*  disegno di una griglia n x n - grafica 2D
+    Completare il metodo Scala getGrid dell’object Model2D seguente in modo che costruisca 
+    un modello 2D che raffigura una griglia n x n. La figura è creata utilizzando esclusivamente 
+    segmenti di linea. La figura deve essere confinata nello spazio quadrato bidimensionale di 
+    lato unitario delimitato dall’origine degli assi fino al punto di coordinate (1,1). 
+    La figura viene poi scalata automaticamente dal modulo di visualizzazione per occupare la 
+    dimensione della finestra. Si ricordi che da Scala è possibile accedere a tutte le funzioni 
+    delle librerie Java (es. quelle della classe Math, se dovessero servire).
+
+    Per compilare da riga di comando usare: scalac Frame2D.scala Shape.scala Model2D.scala.
+*/
