@@ -1,1 +1,1 @@
-def fact(n:Int) = (1 to n ).reduce(_*_)
+def fact(n:Int) = (1 to n).reduce(_*_)
