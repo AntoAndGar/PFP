@@ -3,3 +3,4 @@ Video/*
 .metals/
 .bloop/
 project/metals.sbt
+*.mp4
