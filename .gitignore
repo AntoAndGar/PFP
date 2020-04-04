@@ -4,4 +4,3 @@ Video/*
 .bloop/
 project/metals.sbt
 *.mp4
-E33.scala
