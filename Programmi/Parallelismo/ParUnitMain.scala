@@ -5,6 +5,8 @@ object Task {
     def doTask(n:Long) = {
         var i = 0
         while (i<n) {
+            if (i%100000000==0)
+                println(i)
             i += 1
         }
     }
