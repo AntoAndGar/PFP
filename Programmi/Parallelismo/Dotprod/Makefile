@@ -8,7 +8,7 @@ dotprod: dotprod_main.c dotprod.c dotprod.h
 	$(CC) $(FLAGS) dotprod_main.c dotprod.c -o dotprod
 
 dotprod_sse: dotprod_main.c dotprod_sse.c dotprod.h
-	$(CC) $(FLAGS) dotprod_main.c dotprod_sse.c -o dotprod_sse
+	$(CC) $(FLAGS) dotprod_main.c dotprod_sse.c -o dotprod_sse -msse4.2
 
 dotprod_avx: dotprod_main.c dotprod_avx.c dotprod.h
 	$(CC) $(FLAGS) dotprod_main.c dotprod_avx.c -o dotprod_avx -mavx2
@@ -27,7 +27,7 @@ test:
 
 asm: dotprod.c dotprod_sse.c dotprod_avx.c
 	$(CC) $(FLAGS) dotprod.c -S
-	$(CC) $(FLAGS) dotprod_sse.c -S
+	$(CC) $(FLAGS) dotprod_sse.c -S -msse4.2
 	$(CC) $(FLAGS) dotprod_avx.c -S -mavx2
 
 clean:
