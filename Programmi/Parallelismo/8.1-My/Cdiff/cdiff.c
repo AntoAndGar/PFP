@@ -32,5 +32,5 @@ int cdiff(const char *x, const char *y, int n)
     _mm_storeu_si128((__m128i *)mcnt, vcnt);
     for (i = 0; i < 16; ++i)
         cnt += mcnt[i];
-    return 0;
+    return cnt;
 }
